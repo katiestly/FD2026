@@ -10,6 +10,7 @@ package seminar4
  */
 
 
+
 fun normalizeEmail(raw: String?): String? {
     val email = raw?.trim()?: return null
     if (email.any {it.isWhitespace()}) return null
